@@ -1,0 +1,1083 @@
+$color:rgb(233, 61, 210);
+$color2:rgb(201, 191, 191);
+$color3:rgb(243, 243, 42);
+body, html{
+    overflow-x: hidden;
+}
+*{
+    box-sizing: border-box;
+}
+.text1{
+    margin-left: 530px;
+    a{
+        font-size: 14px;
+    }
+}
+.block2{
+    width: 555px;
+    height: 550px;
+    margin: 30px 0;
+    p{
+        font-size: 13px;
+        letter-spacing: 1px;
+    }
+    .ttt{
+        width: 100px;
+        height: 2px;
+        display: block;
+        background-image: linear-gradient(90deg, rgb(231, 150, 74),rgb(224, 174, 108), transparent,);
+        margin: -10px -2px;
+    }
+    %ggg{
+        width: 220px;
+        height: 220px;
+        .photo{
+            width: 190px;
+            height: 190px;
+            margin: 14px 12px;
+        }
+    }
+    .ggg{
+        @extend %ggg;
+        border-top: 1px solid $color2;
+        border-left: 3px solid $color;
+        border-bottom: 3px solid $color;
+        border-right: 1px solid $color2;
+        margin-left: 300px;
+    }
+    .ggg2{
+        @extend %ggg;
+        border-top: 1px solid $color2;
+        border-left: 3px solid $color3;
+        border-bottom: 3px solid $color3;
+        border-right: 1px solid $color2;
+        margin: -60px 110px;
+    }
+    .ggg3{
+        width: 200px;
+        height: 200px;
+        border-top: 3px solid $color;
+        border-left: 1px solid $color2;
+        border-bottom: 1px solid $color2;
+        border-right: 1px solid $color2;
+        margin: -135px 350px;
+        .photo2{
+            width: 170px;
+            height: 170px;
+            margin: 15px 14px;
+        }
+    }
+    .ggg4{
+        width: 150px;
+        height: 150px;
+        margin: 30px -20px;
+        background-image: linear-gradient(-230deg ,rgb(169, 30, 197), transparent, transparent,);
+    }
+    .text2{
+        position: absolute;
+        top: 70px;
+        letter-spacing: 3.5px;
+        font-size: 45px;
+        word-spacing: 6px;
+    }
+    h6{
+        margin: 155px 0;
+        font-size: 13.5px;
+        line-height: 23px;
+        letter-spacing: 0.50px;
+    }
+    input{
+        width: 170px;
+        height: 40px;
+        position: absolute;
+        top: 280px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(235, 175, 96);
+        color: #ffffff;
+        box-shadow: 0 3px 15px 2px rgb(235, 175, 96);
+    }
+    input:hover{
+        background-color: rgb(37, 37, 235);
+        box-shadow: 0 3px 15px 2px rgb(37, 37, 235);
+    }
+    input:active{
+        background-color: rgb(248, 31, 31);
+        box-shadow: 0 3px 15px 2px rgb(248, 31, 31);
+    }
+}
+.col-md-3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    position: relative;
+    .photo3{
+        width: 265px;
+        height: 265px;
+    }
+    p{
+        margin: 0px 0;
+    }
+    .jjj{
+        width: 100%;
+        margin: 50px 20px;
+        .jjj2{
+            width: 200px;
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+            .jjj3{
+                width: 30px;
+                img{
+                    width: 18px;
+                    height: 18px;
+                }
+            }
+            .jjj4{
+                width: 170px;
+                p{
+                    margin: 0 2px;
+                }
+            }
+        }
+    }
+    button{
+        width: 180px;
+        height: 45px;
+        border-radius: 5px;
+        border-style: none;
+        outline: none;
+        margin: 80px 20px;
+    }
+    .tugma{
+        margin-top: 35px;
+    }
+    .tugma2{
+        margin-top: 55px;
+    }
+    .tugma3{
+        margin-top: 54px;
+    }
+    .tugma4{
+        width: 38px;
+        height: 38px;
+        border: 2px solid rgb(44, 218, 44);
+        color: rgb(44, 218, 44);
+        &:hover{
+            border: 2px solid rgb(226, 19, 71);
+            color: rgb(226, 19, 71);
+        }
+        &:active{
+            border: 2px solid rgb(47, 26, 238);
+            color: rgb(47, 26, 238);
+        }
+    }
+    .TEXT{
+        font-family: cursive;
+    }
+}
+.col-md-9{
+    .block3{
+        width: 95%;
+        height: 250px;
+        margin: 55px 5%;
+        .ttt2{
+            width: 100px;
+            height: 2px;
+            display: block;
+            background-image: linear-gradient(90deg, rgb(166, 38, 170),rgb(218, 62, 205), transparent,);
+            margin: 10px -0;
+        }
+        p{
+            letter-spacing: 1.5px;
+            margin: 15px 0;
+        }
+        a{
+            font-size: 24px;
+        }
+    }
+}
+.col-md-12{
+    .ttt3{
+        width: 100px;
+        height: 2px;
+        display: block;
+        background-image:repeating-radial-gradient(rgb(236, 173, 55),rgb(236, 173, 55), transparent,);
+        margin: 0 auto;
+    }
+    h1{
+        letter-spacing: 1px;
+        margin: 5px 0;
+    }
+    .ttt4{
+        width: 100px;
+        height: 2px;
+        display: block;
+        background-image:repeating-radial-gradient(rgb(236, 173, 55),rgb(236, 173, 55), transparent,);
+        margin: 0 auto;
+    }
+}
+.row{
+    .col{
+        margin: 30px 0;
+        h4{
+            margin: 15px 0;
+
+        }
+        p{
+            letter-spacing: 1px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+    }
+    .block4{
+        width: 100%;
+        height: 230px;
+        cursor: pointer;
+    }
+    .block4:hover{
+        box-shadow: 0 3px 15px 2px rgb(64, 66, 66);
+    }
+    .block4:active{
+        background-color: rgb(194, 201, 201);
+        color: #ffffff;
+    }
+}
+//Drugiye klassi
+.hhh{
+    .hhh2{
+        .TEXT2{
+            text-align: center;
+        }
+        .TEXT3{
+            text-align: center;
+        }
+    }
+    &:hover{
+        background-color: rgb(247, 188, 80);
+        border-radius: 10px;
+        box-shadow: 0 0 12px 0.50px;
+    }
+}
+.hhh:hover button{
+    background-color: rgb(93, 103, 231);
+    color: #ffffff;
+}
+.hhh button:active{
+    background-color: rgb(233, 52, 52);
+    color: rgb(15, 15, 15);
+}
+@media (min-width: 0) and (max-width: 446.9px){
+    *{
+        box-sizing: border-box;
+    }
+    .block2{
+        width: 100%;
+        .text2{
+            font-size: 21px;
+            line-height: 28px;
+        }
+        h6{
+            margin: 130px 0;
+            font-size: 11px;
+            line-height: 18px;
+            letter-spacing: 0.20px;
+        }
+        p{
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+        input{
+            width: 115px;
+            height: 38px;
+            position: absolute;
+            top: 200px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(235, 175, 96);
+            color: #ffffff;
+            box-shadow: 0 3px 15px 2px rgb(235, 175, 96);
+            margin: 50px 0;
+            font-size: 15px;
+        }
+        input:hover{
+            background-color: rgb(37, 37, 235);
+            box-shadow: 0 3px 15px 2px rgb(37, 37, 235);
+        }
+        input:active{
+            background-color: rgb(248, 31, 31);
+            box-shadow: 0 3px 15px 2px rgb(248, 31, 31);
+        }
+        .ggg{
+            width: 160px;
+            height: 160px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color;
+            border-bottom: 3px solid $color;
+            border-right: 1px solid $color2;
+            margin: -350px 155px;
+            .photo{
+                width: 140px;
+                height: 140px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg2{
+            width: 160px;
+            height: 160px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color3;
+            border-bottom: 3px solid $color3;
+            border-right: 1px solid $color2;
+            margin: 310px 0;
+            .photo{
+                width: 140px;
+                height: 140px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg3{
+            width: 140px;
+            height: 140px;
+            border-top: 3px solid $color;
+            border-left: 1px solid $color2;
+            border-bottom: 1px solid $color2;
+            border-right: 1px solid $color2;
+            margin: -400px 170px;
+            .photo2{
+                width: 120px;
+                height: 120px;
+                margin: 9px 9px;
+            }
+        }
+        .ggg4{
+            width: 130px;
+            height: 130px;
+            background-image: linear-gradient(-230deg ,rgb(169, 30, 197), transparent, transparent,);
+            margin: 380px 40px;
+        }
+        
+    }
+    .text1{
+        margin: 20px -20px;
+        a{
+            font-size: 12px;
+        }
+    }
+    .row{
+        .col-md-3 {
+            .photo3{
+                width: 130px;
+                height: 130px;
+                margin: -470px 90px;
+            }
+        }
+        .col-md-9{
+            .block3{
+                margin: -300px 0;
+                h6{
+                    text-align: center;
+                }
+                .ttt2{
+                    margin: 0 auto;
+                    background-image: linear-gradient(90deg, rgb(166, 38, 170),rgb(218, 62, 205), transparent);
+                }
+                h1{
+                    font-size: 35px;
+                    margin: 15px 0;
+                }
+                p {
+                    font-size: 12px;
+                }
+                a{
+                    font-size: 13px;
+                }
+            }
+        }
+        .block4{
+            img{
+                width: 60px;
+                height: 60px;
+            }
+            h4{
+                margin: 10px 0;
+                font-size: 21px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    .hhh{
+        h5{
+            font-size: 18px;
+            text-align: center;
+        }
+        .jjj4{
+            p{
+                font-size: 12px;
+            }
+        }
+        button{
+            width: 140px;
+            height: 40px;
+            align-items: center;
+            margin: 0 30px;
+        }
+    }
+    .block5{
+        .TEXT{
+            margin: 10px 0;
+            font-size: 13px;
+        }
+    }
+    .block6{
+        ul span li{
+            font-size: 13px;
+
+        }
+    }
+    .block7{
+        ul span li{
+            font-size: 13px;
+
+        }
+    }
+    .block8{
+        p{
+            font-size: 13px;
+        }
+    }
+}
+@media (min-width: 447px) and (max-width: 768.9px){
+    *{
+        box-sizing: border-box;
+    }
+    .block2{
+        width: 100%;
+        .text2{
+            font-size: 30px;
+            line-height: 37px;
+        }
+        h6{
+            margin: 130px 0;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 0.20px;
+        }
+        p{
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        input{
+            width: 115px;
+            height: 38px;
+            position: absolute;
+            top: 200px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(235, 175, 96);
+            color: #ffffff;
+            box-shadow: 0 3px 15px 2px rgb(235, 175, 96);
+            margin: 50px 0;
+            font-size: 15px;
+        }
+        input:hover{
+            background-color: rgb(37, 37, 235);
+            box-shadow: 0 3px 15px 2px rgb(37, 37, 235);
+        }
+        input:active{
+            background-color: rgb(248, 31, 31);
+            box-shadow: 0 3px 15px 2px rgb(248, 31, 31);
+        }
+        .ggg{
+            width: 210px;
+            height: 210px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color;
+            border-bottom: 3px solid $color;
+            border-right: 1px solid $color2;
+            margin: -425px 260px;
+            .photo{
+                width: 190px;
+                height: 190px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg2{
+            width: 210px;
+            height: 210px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color3;
+            border-bottom: 3px solid $color3;
+            border-right: 1px solid $color2;
+            margin: 340px 30px;
+            .photo{
+                width: 190px;
+                height: 190px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg3{
+            width: 180px;
+            height: 180px;
+            border-top: 3px solid $color;
+            border-left: 1px solid $color2;
+            border-bottom: 1px solid $color2;
+            border-right: 1px solid $color2;
+            margin: -430px 290px;
+            .photo2{
+                width: 160px;
+                height: 160px;
+                margin: 9px 9px;
+            }
+        }
+        .ggg4{
+            width: 140px;
+            height: 140px;
+            background-image: linear-gradient(-230deg ,rgb(169, 30, 197), transparent, transparent,);
+            margin: 370px 120px;
+        }
+        
+    }
+    .text1{
+        margin: 20px -20px;
+        a{
+            font-size: 13px;
+        }
+    }
+    .row{
+        .col-md-3 {
+            .photo3{
+                width: 170px;
+                height: 170px;
+                margin: -500px 160px;
+            }
+        }
+        .col-md-9{
+            .block3{
+                margin: -300px 0;
+                h6{
+                    text-align: center;
+                }
+                .ttt2{
+                    margin: 0 auto;
+                    background-image: linear-gradient(90deg, rgb(166, 38, 170),rgb(218, 62, 205), transparent);
+                }
+                h1{
+                    font-size: 38px;
+                    margin: 15px 0;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 22px;
+                }
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+        .block4{
+            img{
+                width: 70px;
+                height: 70px;
+            }
+            h4{
+                margin: 15px 0;
+                font-size: 22px;
+            }
+            p{
+                font-size: 13px;
+                letter-spacing: 1px;
+                word-spacing: 2px;
+            }
+        }
+    }
+    .hhh{
+        h5{
+            font-size: 20px;
+            text-align: center;
+        }
+        .jjj4{
+            p{
+                font-size: 13px;
+            }
+        }
+        button{
+            width: 140px;
+            height: 40px;
+            margin: 0 40px;
+        }
+        .hhh2{
+            margin: 0 115px;
+        }
+    
+    }
+    .block5{
+        .TEXT{
+            margin: 10px 0;
+            font-size: 13px;
+        }
+    }
+    .block6{
+        ul span li{
+            font-size: 13px;
+
+        }
+    }
+    .block7{
+        ul span li{
+            font-size: 13px;
+
+        }
+    }
+    .block8{
+        p{
+            font-size: 13px;
+        }
+    }
+    .input-group{
+        .tugma5{
+            width: 300px;
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 989.9px){
+    *{
+        box-sizing: border-box;
+    }
+    .block2{
+        width: 100%;
+        .text2{
+            font-size: 30px;
+            line-height: 37px;
+        }
+        h6{
+            margin: 130px 0;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 0.20px;
+        }
+        p{
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        input{
+            width: 115px;
+            height: 38px;
+            position: absolute;
+            top: 200px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(235, 175, 96);
+            color: #ffffff;
+            box-shadow: 0 3px 15px 2px rgb(235, 175, 96);
+            margin: 50px 0;
+            font-size: 15px;
+        }
+        input:hover{
+            background-color: rgb(37, 37, 235);
+            box-shadow: 0 3px 15px 2px rgb(37, 37, 235);
+        }
+        input:active{
+            background-color: rgb(248, 31, 31);
+            box-shadow: 0 3px 15px 2px rgb(248, 31, 31);
+        }
+        .ggg{
+            width: 220px;
+            height: 220px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color;
+            border-bottom: 3px solid $color;
+            border-right: 1px solid $color2;
+            margin: -430px 400px;
+            .photo{
+                width: 200px;
+                height: 200px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg2{
+            width: 220px;
+            height: 220px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color3;
+            border-bottom: 3px solid $color3;
+            border-right: 1px solid $color2;
+            margin: 340px 100px;
+            .photo{
+                width: 200px;
+                height: 200px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg3{
+            width: 200px;
+            height: 200px;
+            border-top: 3px solid $color;
+            border-left: 1px solid $color2;
+            border-bottom: 1px solid $color2;
+            border-right: 1px solid $color2;
+            margin: -420px 360px;
+            .photo2{
+                width: 180px;
+                height: 180px;
+                margin: 9px 9px;
+            }
+        }
+        .ggg4{
+            width: 140px;
+            height: 140px;
+            background-image: linear-gradient(-230deg ,rgb(169, 30, 197), transparent, transparent,);
+            margin: 330px 170px;
+        }
+        
+    }
+    .text1{
+        margin: 20px 130px;
+        li a{
+            font-size: 13px;
+        }
+    }
+    .row{
+        .col-md-3 {
+            .photo3{
+                width: 170px;
+                height: 170px;
+                margin: -500px 160px;
+            }
+        }
+        .col-md-9{
+            .block3{
+                margin: -300px 0;
+                h6{
+                    text-align: center;
+                }
+                .ttt2{
+                    margin: 0 auto;
+                    background-image: linear-gradient(90deg, rgb(166, 38, 170),rgb(218, 62, 205), transparent);
+                }
+                h1{
+                    font-size: 38px;
+                    margin: 15px 0;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 22px;
+                }
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+        .block4{
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            h4{
+                margin: 15px 0;
+                font-size: 18px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    .hhh{
+        h5{
+            font-size: 15px;
+            margin: 0 -60px;
+        }
+        .jjj4{
+            p{
+                font-size: 9px;
+            }
+        }
+        button{
+            width: 100px;
+            height: 35px;
+            margin: 0 20px;
+            font-size: 10px;
+        }
+        .hhh2{
+            .TEXT2{
+                text-align: left;
+                font-size: 10px;
+            }
+            .TEXT3{
+                text-align: start;
+                margin: 0 30px;
+                
+            }
+        }
+        .jjj{
+            width: 100%;
+            margin: 50px -3px;
+        }
+    
+    }
+    .block5{
+        .TEXT{
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        ul li{
+            font-size: 13px;
+        }
+    }
+    .block6{
+        ul span li{
+            font-size: 12px;
+
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+    .block7{
+        ul span li{
+            font-size: 12px;
+
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+    .block8{
+        p{
+            font-size: 13px;
+        }
+    }
+    .block9{
+        h4{
+            font-size: 18px;
+        }
+    }
+    .input-group{
+        .tugma5{
+            width: 150px;
+        }
+    }
+}
+@media (min-width: 990px) and (max-width: 1200px){
+    *{
+        box-sizing: border-box;
+    }
+    .block2{
+        width: 100%;
+        .text2{
+            font-size: 30px;
+            line-height: 37px;
+        }
+        h6{
+            margin: 130px 0;
+            font-size: 13px;
+            line-height: 18px;
+            letter-spacing: 0.20px;
+        }
+        p{
+            font-size: 12px;
+            letter-spacing: 1px;
+        }
+        input{
+            width: 115px;
+            height: 38px;
+            position: absolute;
+            top: 200px;
+            border-radius: 5px;
+            border: none;
+            background-color: rgb(235, 175, 96);
+            color: #ffffff;
+            box-shadow: 0 3px 15px 2px rgb(235, 175, 96);
+            margin: 50px 0;
+            font-size: 15px;
+        }
+        input:hover{
+            background-color: rgb(37, 37, 235);
+            box-shadow: 0 3px 15px 2px rgb(37, 37, 235);
+        }
+        input:active{
+            background-color: rgb(248, 31, 31);
+            box-shadow: 0 3px 15px 2px rgb(248, 31, 31);
+        }
+        .ggg{
+            width: 220px;
+            height: 220px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color;
+            border-bottom: 3px solid $color;
+            border-right: 1px solid $color2;
+            margin: -430px 400px;
+            .photo{
+                width: 200px;
+                height: 200px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg2{
+            width: 220px;
+            height: 220px;
+            border-top: 1px solid $color2;
+            border-left: 3px solid $color3;
+            border-bottom: 3px solid $color3;
+            border-right: 1px solid $color2;
+            margin: 340px 100px;
+            .photo{
+                width: 200px;
+                height: 200px;
+                margin: 9px 7px;
+            }
+        }
+        .ggg3{
+            width: 200px;
+            height: 200px;
+            border-top: 3px solid $color;
+            border-left: 1px solid $color2;
+            border-bottom: 1px solid $color2;
+            border-right: 1px solid $color2;
+            margin: -420px 360px;
+            .photo2{
+                width: 180px;
+                height: 180px;
+                margin: 9px 9px;
+            }
+        }
+        .ggg4{
+            width: 140px;
+            height: 140px;
+            background-image: linear-gradient(-230deg ,rgb(169, 30, 197), transparent, transparent,);
+            margin: 330px 170px;
+        }
+        
+    }
+    .text1{
+        margin: 20px 130px;
+        li a{
+            font-size: 13px;
+        }
+    }
+    .row{
+        .col-md-3 {
+            .photo3{
+                width: 170px;
+                height: 170px;
+                margin: -500px 160px;
+            }
+        }
+        .col-md-9{
+            .block3{
+                margin: -300px 0;
+                h6{
+                    text-align: center;
+                }
+                .ttt2{
+                    margin: 0 auto;
+                    background-image: linear-gradient(90deg, rgb(166, 38, 170),rgb(218, 62, 205), transparent);
+                }
+                h1{
+                    font-size: 38px;
+                    margin: 15px 0;
+                }
+                p {
+                    font-size: 12px;
+                    line-height: 22px;
+                }
+                a{
+                    font-size: 16px;
+                }
+            }
+        }
+        .block4{
+            img{
+                width: 50px;
+                height: 50px;
+            }
+            h4{
+                margin: 15px 0;
+                font-size: 18px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+    .hhh{
+        h5{
+            font-size: 15px;
+            margin: 0 -60px;
+        }
+        .jjj4{
+            p{
+                font-size: 9px;
+            }
+        }
+        button{
+            width: 100px;
+            height: 35px;
+            margin: 0 20px;
+            font-size: 10px;
+        }
+        .hhh2{
+            .TEXT2{
+                text-align: left;
+                font-size: 10px;
+            }
+            .TEXT3{
+                text-align: start;
+                margin: 0 30px;
+                
+            }
+        }
+        .jjj{
+            width: 100%;
+            margin: 50px -3px;
+        }
+    }
+    .block5{
+        .TEXT{
+            margin: 10px 0;
+            font-size: 12px;
+        }
+        h2{
+            font-size: 25px;
+        }
+        ul li{
+            font-size: 13px;
+        }
+    }
+    .block6{
+        ul span li{
+            font-size: 12px;
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+    .block7{
+        ul span li{
+            font-size: 12px;
+        }
+        h4{
+            font-size: 18px;
+        }
+    }
+    .block8{
+        p{
+            font-size: 13px;
+        }
+    }
+    .block9{
+        h4{
+            font-size: 18px;
+        }
+    }
+    .input-group{
+        .tugma5{
+            width: 150px;
+        }
+    }
+}
